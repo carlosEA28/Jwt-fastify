@@ -8,3 +8,16 @@ Content-Type: application/json
 }
 
 ###
+POST http://localhost:3333/login
+Content-Type: application/json
+
+{
+    "email":"test@test.com",
+    "password":"12345678"
+}
+###
+GET http://localhost:3333/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNlZTk5ZjYzLTc2MTEtNDEzYy05YmQxLTk2ZWU1N2NlMDZlNyIsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsImlhdCI6MTc0MTM1NTM5Nn0.v_YuYeoyZe5539HL2XBu7N1Da6S1ofGVeWmweaJuffY
+
+
+
